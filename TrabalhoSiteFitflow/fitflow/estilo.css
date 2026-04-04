@@ -1,0 +1,161 @@
+
+body {
+    margin: 0;
+    padding:0;
+    background-color:aliceblue;
+}
+
+li, a{
+    color:pink;    
+     text-decoration:none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 20px 20px;
+}
+
+.fitflow img{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin:0;
+    padding:0;
+    border: 0; 
+}
+
+.navLinks li, a{
+    list-style:none;
+    display:inline-block;
+    padding: 0px 30px;
+    border: none;
+    justify-content: space-between;    
+    font-size: 20px;
+    font-family:fantasy;
+}
+
+.navLinks li a:hover{
+    color:white;
+}
+
+button { 
+    cursor: pointer;
+    border-radius: 60px;
+    background-color:pink;
+    color:blueviolet;
+    padding: 10px 20px;
+    border-color: pink;
+    border: 5px;width: 200px;
+    height: auto;
+    font-size: 20px;
+    font-family:fantasy;
+}
+
+button:hover{
+border-color:white;
+    border: 10px;
+    color:white;
+    background-color:rgb(255, 139, 158);
+    
+}
+
+main{
+    display:flex;
+    justify-content:space-around;
+}
+
+.apresentacao{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.banner img{
+    width: 800px;
+    height: auto;
+}
+
+main li{
+    color:black;
+    list-style:none;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner-decorativo-topo {
+    width: 100%;
+    line-height: 0; 
+}
+
+.banner-decorativo-topo img {
+    width: 100%;
+    height: auto;  
+    display: block;
+}
+
+
+.apresentacao {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-professores {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+}
+
+.foto-redonda {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.secao-yoga {
+    width: 100%;
+    min-height: 600px; 
+    
+   +
+    background-image: url('../img/fundoprofs.png'); 
+    
+    
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 50px 0;
+}
+.titulo-professores, .card h3, .card p {
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+.cards-professores {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
