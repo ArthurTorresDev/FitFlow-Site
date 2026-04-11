@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding:0px;
+    margin:0px;
+    background-color:rgb(217, 206, 197);
+    font-family: "Boldonse", system-ui; 
+    max-width: 2200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#anuncio{ 
+    background-color: rgb(117,163,191);
+    color:white;
+    display:flex;
+    justify-content: center;
+    justify-items: space-between;
+    align-items: center;
+    height: 30px;
+    gap:10px;
+    font-size: 12px;
+}
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(140,78,42);
+    height: 90px;
+    
+}
+
+.cabecalho, span{
+    Font-size: 15px;
+    background-color: rgb(140,78,42);
+    color:white;
+}
+span{
+    margin:20px;
+     margin-inline:60px;
+}
+
+.logo{ 
+    font-size: 40px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.saibamais{
+    padding-left: 8px;
+    border:1px solid white;
+    border-radius:60px;
+    padding-right: 8px;
+    color:white;  
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    padding-inline: 90px;
+    color: #333;
+    max-width: 2200px;
+    gap:60px;
+    margin: 30px;
+}
+
+.banner-text{
+     max-width: 900px;    
+}
+
+.banner-text h1{
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 15px;   
+}
+
+.banner-text p{
+    font-size:18px;
+}
+
+.banner img{
+    height: 600px;
+}
+
+.cta {
+  background: #ff7a30;
+  color: white;
+  text-align: center;
+  padding: 60px 8%;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 90;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cta a {
+  background: white;
+  color: #ff7a30;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  padding: 30px;
+  text-align: center;
+  background: #8b4a24;
+  color: white;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+.logo-link {
+    display: block;       
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    text-decoration: none;
+    
+}
+
+.logo-link img {
+    display: block;
+    max-height: 60px;      
+    width: auto;
+}
+
+.logo-link:hover {
+    background: none !important;
+    opacity: 0.8;
+}
+
+.logo.lo {
+    text-decoration: none;
+    color: inherit; 
+    cursor: pointer;
+}
+
+.grade-vendas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto; 
+    transition: transform 0.3s; 
+    border-radius: 15px; 
+}
+
+.card-vendas {
+    display: flex;          
+    justify-content: center; 
+    align-items: stretch;    
+    gap: 20px;               
+    padding: 50px 20px;   
+    max-width: 1200px;      
+    margin: 0 auto;         
+} 
+.card-yoga {
+    border: 1px solid #e0e0e0;
+    border-radius: 15px; 
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s; 
+}
+
+
+.card-yoga:hover {
+    transform: translateY(-5px);
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: left;
+    display: inline-block; 
+}
+
+.lista li {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* Estilo do Botão */
+.btn-yoga {
+    display: block;
+    background-color: #4a7c59; 
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.destaque {
+    border: 2px solid #4a7c59; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
