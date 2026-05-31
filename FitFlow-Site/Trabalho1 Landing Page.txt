@@ -1,0 +1,48 @@
+**Trabalho1: Landing Page** 
+
+
+
+**• Curso e semestre:** 
+
+Análise e Desenvolvimento de Sistemas – 1º semestre/2026
+
+
+
+**• Tema ou diagrama escolhido:**
+
+8- FitFlow Studio FitFlow Studio é uma plataforma online de bem-estar que oferece aulas ao vivo e on-demand de yoga, 
+
+pilates e mindfulness. Através de um sistema interativo que monitora sua evolução, nossos especialistas personalizam 
+
+rotinas para melhorar seu equilíbrio físico e emocional, adaptando-se à sua rotina diária. 
+
+
+
+**• Função de cada integrante na produção:**
+
+ARTHUR MASSAMBE TORRES: Index (css e html): Banner, cabeçalho, balões de informação. Vendas: css, cards de renovação, dúvidas e cartão presente.
+
+
+
+HEITOR MUNIZ CLEMENTE DE OLIVEIRA: Index: sobre nós, depoimento dos clientes.
+
+
+
+JOSE CARLOS ALBINO JUNIOR: Vendas: html, rodapé. index: banner, rodapé, criou e organizou páginas, indexou os links.
+
+
+
+KATHLYN PERCÍNIO SOUZA: Página de contatos e FAQ.
+
+
+
+FELIPE JOÃO ALVES CARNEIRO: Página de contatos e FAQ.
+
+
+
+**• Plataformas utilizadas para o desenvolvimento:**
+
+Visual Studio, GitHub, Photoshop, geração de imagens nano banana, Winrar, Discord.
+
+
+

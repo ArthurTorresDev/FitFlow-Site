@@ -339,6 +339,11 @@ a {
     max-width: 340px;
 }
 
+ul{list-style: none;
+list-style: none;
+  padding: 0;
+  margin: 0;}
+
 .balaoBiografia {
     background: white;
     border: 2px solid #ff7a30;
@@ -571,6 +576,7 @@ footer {
 .redes  img {
     width:20px;
 }
+
 /* ===== PÁGINA CONTATO ===== */
 
 /* ===== TÍTULO ===== */
