@@ -1,16 +1,19 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
+    <!-- Configurações básicas -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitFlow</title>
 
+    <!-- CSS principal -->
     <link rel="stylesheet" href="estilo.css">
 
+    <!-- Fonte principal -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
+    <!-- Fontes adicionais -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Pacifico&display=swap');
     </style>
@@ -18,12 +21,13 @@
 
 <body>
 
-    <div id="anuncio">
+    <!-- Barra de anúncio -->
+    <div class="anuncio">
         <p1>Estamos com promoções imperdiveis! Clique em</p1>
         <a class="saibamais" href="venda.html">Saiba mais</a>
     </div>
 
-
+    <!-- Navegação -->
     <nav class="cabecalho">
 
         <span>
@@ -38,14 +42,12 @@
 
     </nav>
 
-
-    <section class="banner">
+    <!-- Banner -->
+    <main class="banner">
 
         <div class="banner-text">
 
-            <h1>
-                Equilíbrio para corpo e mente
-            </h1>
+            <h1>Equilíbrio para corpo e mente</h1>
 
             <p>
                 FitFlow é uma plataforma online de bem-estar que oferece aulas ao vivo e on-demand de yoga,
@@ -60,62 +62,74 @@
 
         </div>
 
-        <img src="../img/banner.png" alt="FitFlow Banner">
+        <img src="img/banner.png" alt="FitFlow Banner">
 
-    </section>
+    </main>
 
-     <section class="baloesInfo">
+    <!-- Cards informativos -->
+    <section class="baloesInfo">
 
-        <div id="baloesInfo">
-          <h1>🧘Yoga</h1>
+        <div class="CardInfo">
+            <h1>🧘Yoga</h1>
             <h3>Yoga — Equilíbrio e movimento</h3>
-            <p1>O yoga conecta corpo e mente através da respiração e do movimento.
-            Cada prática ajuda a desenvolver equilíbrio, força e consciência corporal.</p1><br><br>
+            <p1>
+                O yoga conecta corpo e mente através da respiração e do movimento.
+                Cada prática ajuda a desenvolver equilíbrio, força e consciência corporal.
+            </p1>
+            <br><br>
             <p1>Yoga • Respiração • Equilíbrio</p>
         </div>
 
-        <div id="baloesInfo">
-          <h1>🌿 Mindfulness</h1>
+        <div class="CardInfo">
+            <h1>🌿 Mindfulness</h1>
             <h3>Mindfulness — Presença no agora</h3>
-            <p1>Mindfulness é a prática de estar presente no momento atual.
-            Com atenção plena, aprendemos a reduzir o estresse e viver com mais clareza.</p1><br><br>
+            <p1>
+                Mindfulness é a prática de estar presente no momento atual.
+                Com atenção plena, aprendemos a reduzir o estresse e viver com mais clareza.
+            </p1>
+            <br><br>
             <p1>Mindfulness • Consciência • Calma</p>
         </div>
 
-        <div id="baloesInfo">
-          <h1>🌬️ Respiração</h1>
+        <div class="CardInfo">
+            <h1>🌬️ Respiração</h1>
             <h3>Respiração — Energia e tranquilidade</h3>
-            <p1>Técnicas de respiração ajudam a acalmar a mente e equilibrar as emoções.
-            Respirar com consciência transforma a forma como lidamos com o dia a dia.</p1><br><br>
+            <p1>
+                Técnicas de respiração ajudam a acalmar a mente e equilibrar as emoções.
+                Respirar com consciência transforma a forma como lidamos com o dia a dia.
+            </p1>
+            <br><br>
             <p1>Respiração • Energia • Relaxamento</p>
         </div>
 
-        <div id="baloesInfo">
-          <h1>💫 Bem-estar</h1>
+        <div class="CardInfo">
+            <h1>💫 Bem-estar</h1>
             <h3>Bem-estar — Corpo e mente em harmonia</h3>
-            <p1>O equilíbrio entre movimento, respiração e atenção plena cria uma rotina mais saudável.
-            Pequenas práticas diárias podem gerar grandes transformações.</p1><br><br>
+            <p1>
+                O equilíbrio entre movimento, respiração e atenção plena cria uma rotina mais saudável.
+                Pequenas práticas diárias podem gerar grandes transformações.
+            </p1>
+            <br><br>
             <p1>Bem-estar • Equilíbrio • Saúde</p>
-        </div>  
+        </div>
 
-     </section>
+    </section>
 
-
-
+    <!-- Profissionais -->
     <section id="profissionais">
 
         <h2>Nossos profissionais</h2>
 
         <div class="prof-grid">
 
-
             <div class="prof-card">
 
-                <div class="speech-bubble">
-                    <strong>Heitor — Instrutor</strong>
-                    Com 3 anos de experiência, acredito que o equilíbrio começa de dentro para fora.
-                    Cada aula é uma nova oportunidade de se reconectar com o que realmente importa.
-
+                <div class="balaoBiografia">
+                    <ul>
+                    <li><strong>Heitor — Instrutor</strong></li>
+                    <li>Com 3 anos de experiência, acredito que o equilíbrio começa de dentro para fora.
+                    Cada aula é uma nova oportunidade de se reconectar com o que realmente importa.</li>
+                    </ul>
                     <div class="tags">
                         <span class="tag">Yoga</span>
                         <span class="tag">Mindfulness</span>
@@ -123,8 +137,8 @@
                     </div>
                 </div>
 
-                <div class="prof-photo-wrap">
-                    <img src="../img/heitorprof.jpg" alt="Professor Heitor">
+                <div class="quadroProf">
+                    <img src="img/heitorprof.jpg" alt="Professor Heitor">
                 </div>
 
                 <div class="prof-name">Heitor</div>
@@ -132,15 +146,14 @@
 
             </div>
 
-
-
             <div class="prof-card">
 
-                <div class="speech-bubble">
-                    <strong>Felipe — Instrutor</strong>
-                    Em 2 anos na área, aprendi que a yoga vai muito além do corpo.
-                    É a conexão da alma com o movimento, um reencontro consigo mesmo a cada respiração.
-
+                <div class="balaoBiografia">
+                    <ul>
+                    <li><strong>Felipe — Instrutor</strong></li>
+                    <li>Em 2 anos na área, aprendi que a yoga vai muito além do corpo.
+                    É a conexão da alma com o movimento, um reencontro consigo mesmo a cada respiração.</li>
+                    </ul>
                     <div class="tags">
                         <span class="tag">Yoga</span>
                         <span class="tag">Respiração</span>
@@ -148,8 +161,8 @@
                     </div>
                 </div>
 
-                <div class="prof-photo-wrap">
-                    <img src="../img/felipeprof.jpg" alt="Professor Felipe">
+                <div class="quadroProf">
+                    <img src="img/felipeprof.jpg" alt="Professor Felipe">
                 </div>
 
                 <div class="prof-name">Felipe</div>
@@ -157,16 +170,15 @@
 
             </div>
 
-
-
             <div class="prof-card">
 
-                <div class="speech-bubble">
-                    <strong>Kathlyn — Instrutora</strong>
-                    Pilates transformou minha relação com o meu próprio corpo.
+                <div class="balaoBiografia">
+                    <ul>
+                    <li><strong>Kathlyn — Instrutora</strong></li>
+                    <li>Pilates transformou minha relação com o meu próprio corpo.
                     Hoje, com 4 anos de prática e ensino, ajudo pessoas a encontrarem força,
-                    leveza e presença no dia a dia.
-
+                    leveza e presença no dia a dia.</li>
+                    </ul>
                     <div class="tags">
                         <span class="tag">Pilates</span>
                         <span class="tag">Postura</span>
@@ -174,8 +186,8 @@
                     </div>
                 </div>
 
-                <div class="prof-photo-wrap">
-                    <img src="../img/kathprof.jpg" alt="Professora Kathlyn">
+                <div class="quadroProf">
+                    <img src="img/kathprof.jpg" alt="Professora Kathlyn">
                 </div>
 
                 <div class="prof-name">Kathlyn</div>
@@ -187,8 +199,7 @@
 
     </section>
 
-
-
+    <!-- Depoimentos -->
     <section id="depoimentos">
 
         <h2>O que nossos alunos dizem</h2>
@@ -199,9 +210,7 @@
 
         <div class="dep-grid">
 
-
             <div class="dep-card">
-
                 <span class="aspas">"</span>
                 <span class="estrelas">★★★★★</span>
 
@@ -214,22 +223,16 @@
                 </p>
 
                 <div class="dep-autor">
-
                     <span class="dep-avatar">MA</span>
 
                     <div class="dep-info">
                         <span class="dep-nome">Marcela A.</span>
                         <span class="dep-plano">Plano Mensal — Yoga</span>
                     </div>
-
                 </div>
-
             </div>
 
-
-
             <div class="dep-card">
-
                 <div class="aspas">"</div>
                 <div class="estrelas">★★★★★</div>
 
@@ -241,49 +244,36 @@
                 </p>
 
                 <div class="dep-autor">
-
                     <div class="dep-avatar">TG</div>
 
                     <div class="dep-info">
                         <span class="dep-nome">Tamara G.</span>
                         <span class="dep-plano">Plano Trimestral — Pilates</span>
                     </div>
-
                 </div>
-
             </div>
 
-
-
             <div class="dep-card">
-
                 <div class="aspas">"</div>
                 <div class="estrelas">★★★★★</div>
 
                 <p class="dep-text">
                     Comecei as práticas na Fit Flow buscando apenas aliviar a tensão do dia a dia, mas acabei descobrindo algo muito maior. 
                     As aulas me ensinaram a prestar atenção na respiração, respeitar meus limites e cuidar melhor da minha mente. Hoje sinto mais leveza, 
-                    foco e uma sensação constante de bem-estar. Isso mudou muito minha rotina.!
+                    foco e uma sensação constante de bem-estar. Isso mudou muito minha rotina!
                 </p>
 
                 <div class="dep-autor">
-
                     <div class="dep-avatar">GS</div>
 
                     <div class="dep-info">
                         <span class="dep-nome">Gisele S.</span>
                         <span class="dep-plano">Plano Anual — Mindfulness</span>
                     </div>
-
                 </div>
-
             </div>
 
-        
-
-
             <div class="dep-card">
-
                 <div class="aspas">"</div>
                 <div class="estrelas">★★★★★</div>
 
@@ -295,16 +285,13 @@
                 </p>
 
                 <div class="dep-autor">
-
                     <div class="dep-avatar">JK</div>
 
                     <div class="dep-info">
                         <span class="dep-nome">José K.</span>
                         <span class="dep-plano">Plano Trimestral — Pilates</span>
                     </div>
-
                 </div>
-
             </div>
 
         </div>
@@ -315,17 +302,13 @@
 
     </section>
 
-
-
+    <!-- CTA -->
     <section class="cta">
-
         <h2>Comece sua jornada hoje!</h2>
         <a href="venda.html">Começar Agora</a>
-
     </section>
 
-
-
+    <!-- Footer -->
     <div class="footertags footer-col">
 
         <ul>
@@ -344,14 +327,12 @@
 
         <ul>
             <h3>Redes Sociais</h3>
-            <li><a href="https://www.instagram.com/">Instagram</a></li>
-            <li><a href="https://www.facebook.com/">Facebook</a></li>
-            <li><a href="https://x.com">X</a></li>
+            <li><a class="redes" href="https://www.instagram.com/"> <img src="img/instagram.png" alt="Instagram"> instagram </a> </li>
+            <li><a class="redes" href="https://www.facebook.com/"> <img src="img/facebook.png" alt="Facebook"> facebook </a> </li>
+            <li><a class="redes"  href="https://x.com"> <img src="img/x.png" alt="X"> x </a> </li>
         </ul>
 
     </div>
-
-
 
     <footer>
         © 2014 FitFlow Studio - Todos os direitos reservados
@@ -360,4 +341,3 @@
 </body>
 
 </html>
-
